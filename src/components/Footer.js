@@ -12,7 +12,7 @@ class Footer extends React.Component {
           </ul>
           <br />
           <ul className="copyright">
-            <li>Powered by <a href="https://www.gatsbyjs.org/starters/gatsby-starter-strata" target="_blank" rel="noopener noreferrer" >Gatsby Starter Strata</a></li>
+            <li>Powered by <a href="https://www.gatsbyjs.org/starters/codebushi/gatsby-starter-strata" target="_blank" rel="noopener noreferrer" >Gatsby Starter Strata</a></li>
           </ul>
         </div>
       </div>

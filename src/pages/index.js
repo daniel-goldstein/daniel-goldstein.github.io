@@ -43,67 +43,32 @@ export default class HomeIndex extends React.Component {
             </p>
             <p>
               I like to procrastinate with productivity. Check out my projects below and let me know what you think!
-              {/*If you want to learn more about my skills, click below.*/}
             </p>
-            {/*<ul className="actions">*/}
-              {/*<li><Link to="/me" className="button">More Info</Link></li>*/}
-            {/*</ul>*/}
           </section>
 
           <section id="two">
             <a name="projects" />
             <h2>Recent Projects</h2>
 
-            <ProjectGallery projects={PROJECTS_DATA.map(({ id, src, thumbnail, caption, description }) => ({
+            <ProjectGallery projects={PROJECTS_DATA.map(({ id, src, thumbnail, caption, description, page }) => ({
               src,
               thumbnail,
               caption,
-              description
+              description,
+              page
             }))} />
           </section>
-
-          {/*<section id="three">*/}
-            {/*<a name="photography" />*/}
-            {/*<h2>Photography</h2>*/}
-
-            {/*<Gallery images={PHOTOGRAPHY_DATA.map(({ id, src, thumbnail, caption, description }) => ({*/}
-              {/*src,*/}
-              {/*thumbnail,*/}
-              {/*caption,*/}
-              {/*description*/}
-            {/*}))} />*/}
-
-            {/*<ul className="actions">*/}
-              {/*<li><a href="#" className="button">Full Portfolio</a></li>*/}
-            {/*</ul>*/}
-          {/*</section>*/}
 
           <section id="three">
             <a name="reach-out" />
             <h2>Reach Out</h2>
             <p>If you have any questions about stuff on this site, feel free to reach out!</p>
-            <div className="row">
-              <div className="8u 12u$(small)">
-                <form method="post" action="#">
-                  <div className="row uniform 50%">
-                    <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                    <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                    <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"/></div>
-                  </div>
-                </form>
-                <ul className="actions">
-                  <li><input type="submit" value="Send Message" /></li>
-                </ul>
-              </div>
-              <div className="4u 12u$(small)">
-                <ul className="labeled-icons">
-                  <li>
-                    <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                    <a href="mailto:danielgold95@gmail.com">danielgold95@gmail.com</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <ul className="labeled-icons">
+              <li>
+                <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
+                <a href="mailto:danielgold95@gmail.com">danielgold95@gmail.com</a>
+              </li>
+            </ul>
           </section>
         </div>
       </Layout>

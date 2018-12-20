@@ -15,7 +15,7 @@ export default class ProjectGallery extends React.Component {
         <article className="6u 12u$(xsmall) work-item" key={i}>
           <Link
             className="image fit thumb"
-            to={"/projects/pawprints/"}
+            to={`/projects/${obj.page}/#description`}
           >
             <img src={obj.thumbnail} />
           </Link>
