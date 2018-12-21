@@ -29,17 +29,18 @@ export default class HomeIndex extends React.Component {
 
             <h2>Me in a Nutshell</h2>
             <p>
-              I'm currently a third-year student at Northeastern University studying computer science
-              and mathematics, with a minor in physics. I'm about to start a 6-month co-op position at
+              I&apos;m currently a third-year student at Northeastern University studying computer science
+              and mathematics, with a minor in physics. I&apos;m about to start a 6-month co-op position at
               the Broad Institute of MIT and Harvard as a software engineering co-op on the Hail team.
               I love learning about computer science, math, and the intersection of the two
-              in science and education. If I haven't talked your ear off about something
-              I've learned in class, you probably haven't known me long enough (or maybe just the right amount).
+              in science and education. If I haven&apos;t talked your ear off about something
+              I&apos;ve learned in class, you probably haven&apos;t known me long enough
+              (or maybe just the right amount).
             </p>
             <p>
               At school, I spend most of my "free" time working as a TA for Fundamentals of Computer Science 1 and
               am a member of Students for the Exploration and Development of Space.
-              When I'm not at a computer, I'm often giving tours to prospective students.
+              When I&apos;m not at a computer, I&apos;m often giving tours to prospective students.
             </p>
             <p>
               I like to procrastinate with productivity. Check out my projects below and let me know what you think!
