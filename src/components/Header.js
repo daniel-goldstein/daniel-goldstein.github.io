@@ -11,7 +11,7 @@ export default class Header extends React.Component {
       <header id="header">
         <div className="inner">
           <Link to={"#"} className="image avatar"><img src={avatar} alt="" /></Link>
-          <h1><strong>Hi, I&apos;m Daniel!</strong></h1>
+          <h1><Link to={"#"}><strong>Hi, I&apos;m Daniel!</strong></Link></h1>
           <br />
           <h1><Link to={"#about-me"}>About Me</Link></h1>
           <h1><Link to={"#projects"}>Projects</Link></h1>

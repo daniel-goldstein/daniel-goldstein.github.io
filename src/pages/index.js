@@ -24,10 +24,9 @@ export default class HomeIndex extends React.Component {
 
           <section id="one">
             <header className="major">
-              <h2>Daniel Goldstein</h2>
+              <h2>Me in a Nutshell</h2>
             </header>
-
-            <h2>Me in a Nutshell</h2>
+            
             <p>
               I&apos;m currently a third-year student at Northeastern University studying computer science
               and mathematics, with a minor in physics. I&apos;m about to start a 6-month co-op position at
