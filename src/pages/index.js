@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import ProjectGallery from "../components/ProjectGallery";
@@ -26,7 +25,7 @@ export default class HomeIndex extends React.Component {
             <header className="major">
               <h2>Me in a Nutshell</h2>
             </header>
-            
+
             <p>
               I&apos;m currently a third-year student at Northeastern University studying computer science
               and mathematics, with a minor in physics. I&apos;m about to start a 6-month co-op position at
@@ -50,8 +49,7 @@ export default class HomeIndex extends React.Component {
             <a name="projects" />
             <h2>Recent Projects</h2>
 
-            <ProjectGallery projects={PROJECTS_DATA.map(({ id, src, thumbnail, caption, description, page }) => ({
-              src,
+            <ProjectGallery projects={PROJECTS_DATA.map(({ id, thumbnail, caption, description, page }) => ({
               thumbnail,
               caption,
               description,
