@@ -1,5 +1,5 @@
-import pawprintsThumb from '../assets/images/thumbs/projects/pawprints-thumb.jpeg';
-import lssTreeThumb from '../assets/images/thumbs/projects/lss_tree_thumb.jpeg';
+import pawprintsThumb from '../assets/images/thumbs/projects/pawprints-thumb.png';
+import lssTreeThumb from '../assets/images/thumbs/projects/lss-tree-thumb.jpeg';
 import animatorThumb from '../assets/images/thumbs/projects/toh-thumb.png';
 
 export default [

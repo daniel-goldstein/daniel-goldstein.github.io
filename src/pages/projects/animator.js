@@ -49,7 +49,7 @@ export default () => {
           <img src={animator_ui} width='80%'/>
         </div>
         <p>
-          If you would like to see the animator code, please <Link to={"/#"}>reach out</Link>!
+          If you would like to see the animator code, please <Link to={"/#reach-out"}>reach out</Link>!
           The source is kept private due to course policy.
         </p>
       </div>
