@@ -16,8 +16,9 @@ export default class LssPage extends React.Component {
           <a name="description"/>
           <header><h1>Level Set Segmentation</h1></header>
           <p>
-            In the 2016-2017 school year, I got the opportunity to work in the
-            Northeastern University Computer Architecture Research lab, working on
+            In the 2016-2017 school year, I got the opportunity to work in the <NewTabLink link="https://ece.northeastern.edu/groups/nucar/"
+              text="Northeastern University Computer Architecture Research Laboratory"
+            />, working on
             a parallel computing project under Julian Gutierrez and Dr. David Kaeli.
           </p>
           <p>
