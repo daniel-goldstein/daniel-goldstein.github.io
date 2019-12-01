@@ -31,27 +31,29 @@ export default class HomeIndex extends React.Component {
 
             <p>
               I&apos;m a fourth-year student at Northeastern University studying computer science
-              and mathematics, with a minor in physics. I just finished my second co-op at
-              the Broad Institute of MIT and Harvard as a software engineering co-op on the <NewTabLink link={"https://hail.is/"} text={"Hail"}/> team.
-              My work focused on developing a distributed linear algebra compiler to enable
-              the application of machine learning on large-scale genomic datasets.
-              I love learning about computer science, math, and the intersection of the two
+              and mathematics. I love learning about computer science, math, and the intersection of the two
               in science and education. If I haven&apos;t talked your ear off about something
               I&apos;ve learned in class, you probably haven&apos;t known me long enough
               (or maybe just the right amount).
             </p>
             <p>
+              I recently finished my second co-op at
+              the Broad Institute of MIT and Harvard as a software engineering co-op on the <NewTabLink link={"https://hail.is/"} text={"Hail"}/> team.
+              My work focused on developing a distributed linear algebra compiler to enable
+              the application of machine learning on large-scale genomic datasets. In the Spring of 2020,
+              I will be completing my third co-op experience as a student researcher at
+              the <NewTabLink link={"https://www.bdi.ox.ac.uk"} text={"Oxford Big Data Institute"} />, and in
+              the summer I'll be working as a SWE intern at <NewTabLink link={"https://slack.com"} text={"Slack"} />.
+            </p>
+            <p>
               At school, I spend most of my "free" time working as a TA for Fundamentals of Computer Science 1 and
-              am a member of Students for the Exploration and Development of Space (SEDS). This past year, I served as the
-              Digital Core Analysis Lead in an awesome team of undergraduates competing in NASA&apos;s RASC-AL
+              serving as a member of the Student Leadership Council for Husky Ambassadors, Northeastern's student tour
+              guide organization. I am also a member of Students for the Exploration and Development of Space (SEDS).
+              Last year, I was the Digital Core Analysis Lead in an awesome team of undergraduates competing in NASA&apos;s RASC-AL
               Moon to Mars Ice & Prospecting Challenge.
-              When I&apos;m not at a computer, I&apos;m often giving tours to prospective students.
             </p>
             <p>
-              I&apos;m currently searching for my third co-op experience for the Spring of 2020. You can learn
-              more about my work and research on my <NewTabLink link={resume} text={"resume"} />.
-            </p>
-            <p>
+              You can learn more about my work and research on my <NewTabLink link={resume} text={"resume"} />.
               Check out a few of my projects below and let me know what you think!
             </p>
           </section>
