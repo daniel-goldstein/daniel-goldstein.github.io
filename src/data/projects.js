@@ -1,8 +1,16 @@
 import pawprintsThumb from '../assets/images/thumbs/projects/pawprints-thumb.png';
 import lssTreeThumb from '../assets/images/thumbs/projects/lss-tree-thumb.jpeg';
 import animatorThumb from '../assets/images/thumbs/projects/toh-thumb.png';
+import hailThumb from '../assets/images/thumbs/projects/tensors.png';
 
 export default [
+  {
+    id: 0,
+    thumbnail: hailThumb,
+    caption: 'Hail',
+    description: 'Designing compiler infrastructure for tensor algebra in hail',
+    page: 'hail'
+  },
   {
     id: 1,
     thumbnail: pawprintsThumb,
