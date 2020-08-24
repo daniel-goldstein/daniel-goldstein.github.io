@@ -30,24 +30,25 @@ export default class HomeIndex extends React.Component {
             </header>
 
             <p>
-              I&apos;m a fourth-year student at Northeastern University studying computer science
+              I&apos;m a senior at Northeastern University studying computer science
               and mathematics. I love learning about computer science, math, and the intersection of the two
               in science and education. If I haven&apos;t talked your ear off about something
               I&apos;ve learned in class, you probably haven&apos;t known me long enough
               (or maybe just the right amount).
             </p>
             <p>
-              I recently finished my second co-op at
-              the Broad Institute of MIT and Harvard as a software engineering co-op on the <NewTabLink link={"https://hail.is/"} text={"Hail"}/> team.
+              I recently finished an internship on the Demand Engineering team at Slack, where I focused on implementing Online
+              Certificate Status Protocol (OCSP) Stapling in the open source proxy and load-balancer, <NewTabLink link={"https://www.envoyproxy.io"} text={"envoy"} />. Previously, I worked at
+              the Broad Institute of MIT and Harvard as a software engineering co-op on the <NewTabLink link={"https://hail.is/"} text={"hail"}/> team.
               My work focused on developing a distributed linear algebra compiler to enable
-              the application of machine learning on large-scale genomic datasets. In the Spring of 2020,
-              I will be completing my third co-op experience as a student researcher at
-              the <NewTabLink link={"https://www.bdi.ox.ac.uk"} text={"Oxford Big Data Institute"} />, and in
-              the summer I'll be working as a SWE intern at <NewTabLink link={"https://slack.com"} text={"Slack"} />.
+              the application of machine learning on large-scale genomic datasets.
+              I also spent the Spring of 2020 as a student researcher at
+              the <NewTabLink link={"https://www.bdi.ox.ac.uk"} text={"Oxford Big Data Institute"} />, working on a novel data structure
+              and associated algorithms for compressing and processing large-scale genetic data.
             </p>
             <p>
               At school, I spend most of my "free" time working as a TA for Fundamentals of Computer Science 1 and
-              serving as a member of the Student Leadership Council for Husky Ambassadors, Northeastern's student tour
+              serving as a member of Husky Ambassadors, Northeastern&apos;s student tour
               guide organization. I am also a member of Students for the Exploration and Development of Space (SEDS).
               Last year, I was the Digital Core Analysis Lead in an awesome team of undergraduates competing in NASA&apos;s RASC-AL
               Moon to Mars Ice & Prospecting Challenge.
